@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+table,
+caption,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* .block {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  display: inline-block;
+  margin-right: 30px; */
+/* } */
+/* .transform {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  display: inline-block; */
+/* */
+/* transform: rotate(50deg); */
+/* transform: scale(2 1); */
+/* transform: scaleX(-1);
+  transform: scaleY(-1); */
+/* transform: skew(0, 20deg); */
+/* transform: translate(50%, 50%); */
+/* } */
+/* /* . */
+
+/* .transition {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  cursor: pointer;
+  transition: all 0.9s ease 50ms;
+  color: darkblue;
+}
+.transition:hover {
+  background-color: blueviolet;
+  color: aliceblue;
+} */
+/* @keyframes banner {
+  0% {
+    background-color: aquamarine;
+  }
+  50% {
+    background-color: darkcyan;
+  }
+  100% {
+    background-color: fuchsia;
+  }
+}
+.animation {
+  width: 200px;
+  height: 200px;
+  /* animation: banner 3s ease-in; */
+/* background-color: blue;
+}
+.animation:hover {
+  animation: banner 3s ease-in infinite;
+} */

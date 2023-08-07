@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Indie Flower";
+  src: url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Indie Flower", cursive;
+  color: aliceblue;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("https://img.freepik.com/premium-vector/travel-landmarks-architecture-of-america-in-manhattan-and-san-francisco-in-paper-art-paper-cut-style_49537-454.jpg?size=626&ext=jpg&uid=R109211792&ga=GA1.2.466759373.1688844538&semt=ais");
+  background-position: center;
+  padding: 10px;
+}
+a {
+  color: aliceblue;
+}
+h1 {
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+  justify-content: center;
+}
+tr,
+td {
+  border: 2px solid white;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  border: 2px solid white;
+  padding: 8px;
+  text-align: center;
+}
+:root {
+  background: rgb(5, 5, 75);
+}
+aside {
+  font-size: large;
+}
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}

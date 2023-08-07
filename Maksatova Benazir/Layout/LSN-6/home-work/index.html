@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="line">
+      <h1>Регистрация пользователя</h1>
+    </div>
+    <div class="block">
+      <div class="name">
+        <h2 for="name">Ваше имя:</h2>
+        <input id="name-input" type="name" placeholder="Ваше имя" />
+      </div>
+      <div class="password">
+        <h2 for="password">Пароль:</h2>
+        <input id="password-input" type="password" />
+      </div>
+      <div class="age">
+        <h2 for="age">Возраст:</h2>
+        <input id="age-input" type="number" />
+      </div>
+      <div class="gender">
+        <h2 for="gender">Пол:</h2>
+        <label class="gender-lm" for="gender">Мужской</label>
+        <input id="man" type="radio" value="Мужской" name="gender" />
+        <label class="gender-lw" for="wooman">Женский</label>
+        <input id="wooman" type="radio" value="Женский" name="gender" />
+      </div>
+      <div class="hobby">
+        <h2 for="hobby">Ваши увлечения:</h2>
+        <label class="hobby-l" for="music">Музыка</label>
+        <input id="music" type="checkbox" />
+        <label class="hobby-l" for="video">Видео</label>
+        <input id="video" type="checkbox" />
+        <label class="hobby-l" for="p">Рисование</label>
+        <input id="p" type="checkbox" />
+      </div>
+      <div class="country">
+        <h2 for="country">Ваша страна:</h2>
+        <select class="select-country" id="country">
+          <option disabled selected></option>
+          <option value="Кыргызстан">Кыргызстан</option>
+          <option value="Россия">Россия</option>
+          <option value="Украина">Украина</option>
+          <option value="Белоруссия">Белоруссия</option>
+          <option value="Казахстан">Казахстан</option>
+          <option value="Армения">Армения</option>
+          <option value="Молдова">Молдова</option>
+          <option value="Узбекистан">Узбекистан</option>
+          <option value="Азербайджан">Азербайджан</option>
+        </select>
+      </div>
+      <div class="city">
+        <h2 for="city">Ваш город:</h2>
+        <select class="select-city" id="city">
+          <option disabled selected></option>
+          <option value="Айдаркан">Айдаркан</option>
+          <option value="Балыкчы">Балыкчы</option>
+          <option value="Бишкек">Бишкек</option>
+          <option value="Жалал-Абад">Жалал-Абад</option>
+          <option value="Кадамжай">Кадамжай</option>
+          <option value="Кайынды">Кайынды</option>
+          <option value="Кант">Кант</option>
+          <option value="Кара-Балта">Кара-Балта</option>
+          <option value="Каракол">Каракол</option>
+          <option value="Кара-Кол">Кара-Кол</option>
+          <option value="Кара-Суу">Кара-Суу</option>
+          <option value="Кемин">Кемин</option>
+          <option value="Кок-Жангак">Кок-Жангак</option>
+          <option value="Кочкор-Ата">Кочкор-Ата</option>
+          <option value="Кызыл-Кыя">Кызыл-Кыя</option>
+          <option value="Майлуу-Суу">Майлуу-Суу</option>
+          <option value="Нарын">Нарын</option>
+          <option value="Ноокат">Ноокат</option>
+          <option value="Орловка">Орловка</option>
+          <option value="Ош">Ош</option>
+          <option value="Раззаков">Раззаков</option>
+          <option value="Сулукту">Сулукту</option>
+          <option value="Талас">Таласс</option>
+          <option value="Таш-Комур">Таш-Комур</option>
+          <option value="Токмок">Токмок</option>
+          <option value="Токтогул">Токтогул</option>
+          <option value="Озгон">Озгон</option>
+          <option value="Чолпон-Ата">Чолпон-Ата</option>
+          <option value="Шопоков">Шопоков</option>
+        </select>
+      </div>
+      <div class="about">
+        <h2>Коротко о себе:</h2>
+        <label for="text"></label>
+        <textarea
+          name="about"
+          id="text"
+          cols="5"
+          rows="4"
+          placeholder="Кратко о себе..."
+        ></textarea>
+      </div>
+      <div class="button">
+        <button>Отменить</button>
+        <button>Отправить</button>
+      </div>
+    </div>
+  </body>
+</html>

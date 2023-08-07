@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Pacifico";
+  src: url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding-bottom: 40px;
+  border-bottom: 2px solid #d9d9d9;
+  font-family: "Pacifico", cursive;
+}
+.left {
+  padding: 42px;
+  width: 410px;
+  float: left;
+}
+
+.right {
+  padding: 43px;
+  width: 458px;
+  float: right;
+}
+.center {
+  text-align: center;
+  padding-top: 50px;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  height: 20px;
+  color: #fff;
+}
+
+.main {
+  background-position: center;
+  padding-bottom: 85px;
+}
+h2 {
+  color: #fff;
+  font-family: Playfair Display;
+}
+
+p {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  padding-top: 14px;
+}
+
+.list {
+  font-size: 14px;
+  float: right;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #fff;
+  font-family: "Pacifico", cursive;
+}
+a:hover {
+  cursor: pointer;
+  color: #896336;
+}
+button {
+  margin-top: 22px;
+  width: 80px;
+  height: 30px;
+  background: #d68546;
+  color: #d9d9d9;
+  border: 0;
+  border-radius: 12px;
+  float: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+button:hover {
+  cursor: pointer;
+  background: #1a1739;
+}
+.footer {
+  padding: 30px;
+  margin-top: 79px;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+.foot {
+  margin: 20px 30px;
+}
+td {
+  color: #fff;
+  padding-left: 50px;
+}
+:root {
+  background: #1a1739;
+}
+
+.test {
+  margin-top: 300px;
+}

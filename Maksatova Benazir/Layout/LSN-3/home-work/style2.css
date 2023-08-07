@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  background-color: rgb(238, 149, 16);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("https://as1.ftcdn.net/v2/jpg/04/51/51/82/1000_F_451518224_QBgvrmipPTfxfjowNUTVoSQYgRrUUze3.jpg");
+  background-position: center;
+  font-family: "Courier New", Courier, monospace;
+}
+h1,
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
+ol {
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: azure;
+}
+ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: azure;
+}
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Indie Flower", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background: lavender;
+  padding: 8px;
+}
+.block1 {
+  padding: 80px;
+  margin: 40px;
+  border: 2px solid purple;
+  background: rgb(210, 103, 243);
+}
+.block2 {
+  padding: 40px;
+  margin: 40px;
+  border: 2px solid blue;
+  background: lightskyblue;
+}
+.block3 {
+  padding: 100px;
+  margin: 10px;
+  border: 2px solid teal;
+  background: rgb(60, 207, 233);
+}
+.block4 {
+  padding: 90px;
+  margin: 10px;
+  border: 2px solid peru;
+  background: pink;
+}
+.block5 {
+  padding: 100px;
+  margin: 20px;
+  border: 2px solid goldenrod;
+  background: rgb(9, 114, 9);
+}

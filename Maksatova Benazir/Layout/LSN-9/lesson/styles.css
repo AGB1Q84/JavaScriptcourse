@@ -1,0 +1,55 @@
+@import ".\normalise.css";
+
+.container {
+  display: grid;
+  /* todo солбцы */
+  /* grid-template-columns: 80px 80px 80px; */
+  /* grid-template-columns: repeat (4, auto); */
+  grid-template-columns: 1fr 2fr 3fr;
+  /* todo строки */
+  /* grid-template-rows: 100px 100px 100px; */
+  /* grid-template-rows: repeat (2, auto);0 */
+  /* grid: repeat (3, 80px) / repeat (4, 50px); */
+  /* grid-column-gap: 30px;
+  grid-row-gap: 10px; */
+  /* grid-auto-flow: row; */
+  /* grid-auto-flow: column; */
+}
+
+.red {
+  background-color: red;
+  padding: 10px 20px;
+  color: aliceblue;
+}
+.gold {
+  background-color: gold;
+  padding: 10px 20px;
+  color: aliceblue;
+  /* grid-column-start: 1; */
+  /* grid-column-end: 4; */
+  /* grid-area: 1 / 1 / 4 / 3; */
+  order: 0;
+  /* order: -1; */
+  /* order: 1; */
+}
+
+.green {
+  background-color: green;
+  padding: 10px 20px;
+  color: aliceblue;
+}
+.gray {
+  background-color: gray;
+  padding: 10px 20px;
+  color: aliceblue;
+}
+.blue {
+  background-color: blue;
+  padding: 10px 20px;
+  color: aliceblue;
+}
+.black {
+  background-color: black;
+  padding: 10px 20px;
+  color: aliceblue;
+}

@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  line-height: 2;
+  height: 100%;
+}
+:root {
+  background: rgb(150, 252, 235);
+}
+input:hover {
+  background-color: rgb(224, 185, 250);
+}
+button:hover {
+  background: rgb(253, 187, 250);
+  color: azure;
+  cursor: auto;
+}

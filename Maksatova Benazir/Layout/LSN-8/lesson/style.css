@@ -1,0 +1,70 @@
+@import "normalize.css";
+
+/* .block {
+  width: 200px;
+  height: 300px;
+  background-color: fuchsia;
+} */
+/* @media (min-width: 720px) {
+    .block {
+        width: 200px;
+        height: 500px;
+        background-color: darkcyan;
+      }
+} */
+/* @media (min-width: 500px) and (max-width: 100px) {
+  .block {
+    width: 200px;
+    height: 500px;
+    background-color: darkcyan;
+  }
+} */
+ul {
+  padding: 0;
+}
+li {
+  padding: 20px;
+  border: 2px solid rebeccapurple;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigate {
+  display: flex;
+  gap: 10px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.content {
+  width: 200px;
+  height: 200px;
+  margin-top: 5px;
+}
+.color-red {
+  background-color: red;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-green {
+  background-color: green;
+}
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+  }
+  .navigate {
+    flex-direction: column;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+}

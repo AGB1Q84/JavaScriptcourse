@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Arial, sans-serif;
+  src: url();
+}
+/* * {
+  background: aqua;
+} */
+
+.block {
+  background: white;
+  width: 100px;
+}
+:root {
+  background: aqua;
+}
+.login:hower {
+  background: aquamarine;
+}
+.submit:hower {
+  background: #999;
+}
+
+.text {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  /* text-transform: lowercase; */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  text-shadow: -5px -4px 3px #999;
+
+  line-height: 50px;
+}
+a {
+  text-decoration: none;
+}
+.paragraph {
+  line-height: 15px;
+  text-align: none;
+
+  text-indent: 40px;
+}

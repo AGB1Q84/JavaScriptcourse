@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "Bigshot One", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inder", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Inder&display=swap");
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+table,
+caption,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+.header {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  background: #000;
+  width: 30%;
+  height: 150px;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 150px;
+  background: #fb5741;
+}
+ul {
+  list-style: none;
+}
+
+li {
+  font-family: "Bigshot One", cursive;
+  font-size: 30px;
+  padding: 0px 30px;
+  display: inline-block;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.main {
+  display: flex;
+}
+.img-main {
+  object-fit: cover;
+  width: 100%;
+}
+
+.text {
+  padding: 20px 76px;
+  width: 45%;
+  text-align: center;
+  font-family: "Inder", sans-serif;
+}
+.text-1 {
+  text-decoration: line-through;
+  font-size: 30px;
+  font-family: "Inder", sans-serif;
+}
+.img-1 {
+  object-fit: cover;
+  width: 100%;
+  height: 330px;
+}
+.main2_img {
+  display: flex;
+  flex-direction: column;
+}
+.img-2 {
+  object-fit: cover;
+  width: 100%;
+  height: 165px;
+}
+.button {
+  display: none;
+}
+
+.bottom-text-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.bottom-text {
+  width: 80%;
+  height: 130px;
+  padding-top: 20px;
+  position: relative;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.text-2 {
+  text-align: center;
+  color: #e18401;
+  font-family: "Inder", sans-serif;
+  font-size: 30px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  padding: 10px 76px;
+}
+.footer-right {
+  padding: 10px 76px;
+}
+h4 {
+  font-family: "Inder", sans-serif;
+}
+h6 {
+  padding-top: 10px;
+  color: #8f8c8c;
+  font-family: "Inder", sans-serif;
+  font-weight: normal;
+}
+@media screen and (max-width: 1180px) {
+  .text {
+    width: 100%;
+    padding: 30px 40px;
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header {
+    flex-direction: column;
+  }
+  .logo,
+  .navigation {
+    width: 100%;
+  }
+  .main2,
+  .main2_img {
+    display: none;
+  }
+  .text-2 {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 605px) {
+  .header {
+    flex-direction: column;
+  }
+  .logo,
+  .navigation {
+    width: 100%;
+  }
+  li {
+    display: block;
+    padding: 5px;
+    font-size: 26px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    width: 199px;
+    height: 43px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #ffb550;
+    border: none;
+    font-size: 18px;
+    font-family: "Inder", sans-serif;
+  }
+  .bottom-text-container {
+    display: none;
+  }
+  .footer {
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .footer-left h4 h6 {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .footer-left h4 {
+    border-bottom: 1px solid #d9d9d9;
+  }
+  .footer-right {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    height: 69px;
+    background-color: #000;
+    text-align: center;
+  }
+  .footer-right h4 {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Inder", sans-serif;
+  }
+  .footer-right h6 {
+    display: none;
+  }
+}
