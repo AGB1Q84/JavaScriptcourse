@@ -7,17 +7,18 @@ const errorMessage = document.getElementById("error");
 
 const ok_Btn = document.getElementById("ok");
 
-const addValues = () => {
+const elseFun = () => {
+  errorMessage.innerText = "Введите числа";
+  ok_Btn.style.display = "flex";
+  errorMessage.style.display = "flex";
+};
+
+const addValues = (operator) => {
   if (firstValue.value !== "" && secondValue.value !== "") {
     const res = +firstValue.value + +secondValue.value;
     result.value = res;
   } else {
-    errorMessage.innerText = "Введите числа";
-    ok_Btn.style.display = "flex";
-    errorMessage.style.display = "flex";
-    // как задавать стили
-    // ok_Btn.style.background = ''
-    // ok_Btn.setAttribute('style', 'display: flex;')
+    elseFun();
   }
 };
 
@@ -31,9 +32,7 @@ const minusValues = (operator) => {
     const res = firstValue.value - secondValue.value;
     result.value = res;
   } else {
-    errorMessage.innerText = "Введите числа";
-    ok_Btn.style.display = "flex";
-    errorMessage.style.display = "flex";
+    elseFun();
   }
 };
 
@@ -46,9 +45,7 @@ const divideValues = () => {
     const res = firstValue.value / secondValue.value;
     result.value = res;
   } else {
-    errorMessage.innerText = "Введите числа";
-    ok_Btn.style.display = "flex";
-    errorMessage.style.display = "flex";
+    elseFun();
   }
 };
 
@@ -57,9 +54,7 @@ const multiplyValues = () => {
     const res = firstValue.value * secondValue.value;
     result.value = res;
   } else {
-    errorMessage.innerText = "Введите числа";
-    ok_Btn.style.display = "flex";
-    errorMessage.style.display = "flex";
+    elseFun();
   }
 };
 
