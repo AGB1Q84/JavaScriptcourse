@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <ul id="header-ul">
+        <li><a id="home" href="index.html">Главная</a></li>
+        <li><a href="">О нас</a></li>
+        <li><a href="">Контакты</a></li>
+        <li><a id="basket" href="indexBasket.html">Корзина</a></li>
+      </ul>
+    </div>
+    <div id="search" class="search">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Введите название товара "
+      />
+      <button id="btn__search" class="btn_search" type="button">
+        <img src="img/image1.png" class="img_search" />
+      </button>
+    </div>
+    <div>
+      <div class="sort_by_price">
+        <p class="p_price">Сортировать по:</p>
+        <button id="btn_price" type="button">Ценам</button>
+      </div>
+      <div class="sort_by_date">
+        <p class="p_data">Дате добавления:</p>
+        <button id="btn_new" type="button">Сначала новые</button>
+        <button id="btn_old" type="button">Сначала старые</button>
+      </div>
+    </div>
+    <ul id="container_content" class="container_content"></ul>
+    <div>
+      <button id="button_footer" type="button" class="button_footer">
+        <p class="create">Создать товар</p>
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
