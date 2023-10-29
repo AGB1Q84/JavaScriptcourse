@@ -1,0 +1,220 @@
+{
+  "posts": [
+    {
+      "title": "Товар1",
+      "description": "Описание",
+      "price": "136",
+      "img": "./img/Rectangle1.png",
+      "id": 1,
+      "date": "20.10.23"
+    },
+    {
+      "title": "Товар2",
+      "description": "Описание",
+      "price": "1266",
+      "img": "./img/Rectangle2.png",
+      "id": 2,
+      "date": "19.10.23"
+    },
+    {
+      "title": "Товар3",
+      "description": "Описание",
+      "price": "123674",
+      "img": "./img/Rectangle3.png",
+      "id": 3,
+      "date": "18.10.23"
+    },
+    {
+      "title": "Товар4",
+      "description": "Описание",
+      "price": "8471",
+      "img": "./img/Rectangle4.png",
+      "id": 4,
+      "date": "15.10.23"
+    },
+    {
+      "title": "Товар5",
+      "description": "Описание",
+      "price": "957",
+      "img": "./img/Rectangle5.png",
+      "id": 5,
+      "date": "10.10.23"
+    },
+    {
+      "title": "Товар6",
+      "description": "Описание",
+      "price": "7102",
+      "img": "./img/Rectangle6.png",
+      "id": 6,
+      "date": "07.10.23"
+    },
+    {
+      "title": "Товар7",
+      "description": "Описание",
+      "price": "8921",
+      "img": "./img/Rectangle7.png",
+      "id": 7,
+      "date": "10.09.23"
+    },
+    {
+      "title": "Товар8",
+      "description": "Описание",
+      "price": "745",
+      "img": "./img/Rectangle8.png",
+      "id": 8,
+      "date": "02.10.23"
+    },
+    {
+      "title": "Товар9",
+      "description": "Описание",
+      "price": "180",
+      "img": "./img/Rectangle9.png",
+      "id": 9,
+      "date": "05.10.23"
+    },
+    {
+      "title": "Товар10",
+      "description": "Описание",
+      "price": "250",
+      "img": "./img/Rectangle10.png",
+      "id": 10,
+      "date": "08.09.23"
+    },
+    {
+      "title": "Товар11",
+      "description": "Описание",
+      "price": "1000",
+      "img": "./img/Rectangle1.png",
+      "id": 11,
+      "date": "03.09.23"
+    },
+    {
+      "title": "Товар12",
+      "description": "Описание",
+      "price": "900",
+      "img": "./img/Rectangle12.png",
+      "id": 12,
+      "date": "20.09.23"
+    },
+    {
+      "title": "ufdjjd",
+      "description": "cmdkmcsdm",
+      "price": "1524",
+      "img": "data:image/jpeg;base64,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",
+      "id": 13
+    }
+  ],
+  "basket": [
+    {
+      "id": 1,
+      "img": "./img/Rectangle1.png",
+      "title": "Товар1",
+      "price": "136"
+    },
+    {
+      "id": 9,
+      "img": "./img/Rectangle9.png",
+      "title": "Товар9",
+      "price": "180"
+    },
+    {
+      "id": 5,
+      "img": "./img/Rectangle5.png",
+      "title": "Товар5",
+      "price": "957"
+    }
+  ],
+  "description": [
+    {
+      "title": "Товар1",
+      "description": "Sony PlayStation 5 – долгожданная модель среди миллионов геймеров. Игровая приставка кардинально отличается от предыдущих и имеет невероятное количество достоинств, благодаря которым вы получите удивительные ощущения от игрового процесса. Поддержка больших расширений и VR, объемный 3D-звук, измененный интерфейс – это лишь часть нововведений PS5.",
+      "price": "136",
+      "img": "./img/Rectangle1.png",
+      "id": 1
+    },
+    {
+      "title": "Товар2",
+      "description": "Производство литий – ионных аккумуляторов (ЛИА).Развивая литий – ионные технологии, мы стремимся, прежде всего, к сохранению природных ресурсов и улучшению качества жизни.",
+      "price": "1266",
+      "img": "./img/Rectangle2.png",
+      "id": 2
+    },
+    {
+      "title": "Товар3",
+      "description": "Микросхема для ПК. Хранение программ для проверки оборудования, загрузки операционной системы (ОС) и выполнения базовых функций по обслуживанию устройств компьютера, здесь также хранится программа настройки конфигурации ПК. В целом этот комплект программ называется BIOS.",
+      "price": "123674",
+      "img": "./img/Rectangle3.png",
+      "id": 3
+    },
+    {
+      "title": "Товар4",
+      "description": "Vision Pro представляет собой пару очков с изогнутым прозрачным внешним 3D-экраном. На внешнем экране видны глаза пользователя — это симуляция, которую устройство считывает заранее перед началом использования. Управлять гарнитурой можно с помощью голоса или жестов.",
+      "price": "8471",
+      "img": "./img/Rectangle4.png",
+      "id": 4
+    },
+    {
+      "title": "Товар5",
+      "description": "В микросхеме ALi M1535D+ интегрированы двухканальный IDE-контроллер (поддерживается до четырех IDE-устройств с интерфейсом Ultra DMA 3366100), два USB-контроллера (соответствуют спецификации OpenHCI 1.0a; обеспечивается поддержка шести USB-портов; поддерж",
+      "price": "957",
+      "img": "./img/Rectangle5.png",
+      "id": 5
+    },
+    {
+      "title": "Совершенно новый и качественный. Используется для изменения направления USB-порта. Лучшее решение для подключения кабеля в узком месте, предотвращает изгиб кабеля. Он также защищает оригинальный USB-порт ваших устройств. Угловой USB-удлинитель, подходит для подключения ПК/ноутбука/телевизора/игровой системы/мыши/жесткого диска/мониторов/принтера. Разъем USB 3.0, сверхскоростная скорость передачи данных до 10 Гбит/с (теоретическая), скорость передачи данных может варьироваться в зависимости от порта.",
+      "description": "Описание",
+      "price": "7102",
+      "img": "./img/Rectangle6.png",
+      "id": 6
+    },
+    {
+      "title": "Компактный ноутбук Asus VivoBook 14 X412UA подойдёт для опытных путешественников и людей, проводящих много времени в командировках. Он помещается в маленькую сумку и практически не отягощает багаж.",
+      "description": "Описание",
+      "price": "8921",
+      "img": "./img/Rectangle7.png",
+      "id": 7
+    },
+    {
+      "title": "Товар8",
+      "description": "MacBook - это ультрасовременный ноутбук, созданный компанией Apple, который воплощает в себе лучшие технологии и дизайн. Этот портативный компьютер представляет собой воплощение современной инженерии и инноваций. Модель MacBook обладает тонким и легким корпусом, изготовленным из высококачественного алюминия, который придает устройству прочность и стильный внешний вид. Его минималистичный дизайн впечатляет своей элегантностью, а тонкий профиль делает ноутбук легким для переноски.",
+      "price": "745",
+      "img": "./img/Rectangle8.png",
+      "id": 8
+    },
+    {
+      "title": "Товар9",
+      "description": "Лучшие чехлы для смартфонов — модельные. Размер гаджета и защиты совпадает, легко подключить зарядку и наушники. Можно купить чехол от производителя телефона, особенно если вы выбираете редкие для рынка бренды или новинки. Правда, оригинальные аксессуары стоят дороже, поэтому их часто заменяют аналогами.",
+      "price": "180",
+      "img": "./img/Rectangle9.png",
+      "id": 9
+    },
+    {
+      "title": "Товар10",
+      "description": "Для чего вам нужен ноутбук? Смотреть кино и пролистывать ленту соцсетей, а ещё общаться с друзьями по Скайпу, делать курсовые, искать в интернете рецепты, составлять отчёты по работе? Если один или несколько вариантов вам подходят, Lenovo IdeaPad 320 – правильный выбор. Мощный процессор Intel и Windows 10 сумеют угодить любому пользователю, сработают в тандеме слаженно и продуктивно.",
+      "price": "250",
+      "img": "./img/Rectangle10.png",
+      "id": 10
+    },
+    {
+      "title": "Товар11",
+      "description": "Керамическое покрытие – современный метод защиты кузова автомобиля от негативных воздействий: пыли, песка, реагентов, грязи и т. п. Авто покрывают составом из смеси силикатов, полимеров и кварцевого песка. После нанесения эти элементы образуют стойкую защитную пленку на поверхности автомобиля.",
+      "price": "1000",
+      "img": "./img/Rectangle1.png",
+      "id": 11
+    },
+    {
+      "title": "Товар12",
+      "description": "Операционная система (ОС) — это главная программа, которая запускается при включении компьютера. Она позволяет пользователям компьютера работать с файлами, пользоваться Интернетом и запускать в окошках другие программы, игры, фильмы, музыку. ",
+      "price": "900",
+      "img": "./img/Rectangle12.png",
+      "id": 12
+    },
+    {
+      "title": "Apple Watch",
+      "description": "смарт часы",
+      "price": "1000",
+      "img": "data:image/jpeg;base64,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",
+      "id": 13
+    }
+  ]
+}

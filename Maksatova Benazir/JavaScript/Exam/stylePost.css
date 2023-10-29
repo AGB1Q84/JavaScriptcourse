@@ -1,0 +1,70 @@
+@import "./reset.css";
+
+font-face {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#header {
+  width: 493px;
+  height: 75px;
+  border-radius: 20px;
+  background-color: #eef2d1;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#header-ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+li {
+  font-family: Inter;
+  font-style: normal;
+  font-size: 22px;
+  flex: 1;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+  top: 20px;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px 10px 30px;
+  width: 362px;
+  height: 49px;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+}
+.number_input {
+  width: 99px;
+  height: 44px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: black;
+}
+.post_button {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+}
